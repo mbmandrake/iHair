@@ -7,6 +7,8 @@ class funcionario : usuario, IRemuneravel {
   public funcionario (string n, string s, string t, string end, string em, int tipoUsuario, bool b, bool l, bool a ) : 
   base (n, s, t, end, em, tipoUsuario) {
     bonificavel = b;
+    locomocao = l;
+    alimentacao = a;
   }
 
   public void editBonificavel (bool op){
