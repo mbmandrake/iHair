@@ -25,6 +25,7 @@ class listas {
       else{
         foreach (agendamento a in listaAgendamentos){
           Console.WriteLine("\nCliente: {0}", a.Solicitante.Nome);
+          Console.WriteLine("\nCliente: {0}", a.Solicitante.Telefone);
           Console.WriteLine("Endereço: {0}", a.Solicitante.Endereco);
           Console.WriteLine("Serviço: {0}", a.ServicoSolicitado.Nome);
           Console.WriteLine("Data Agendamento: {0}", a.DataAgendamento);
@@ -37,4 +38,3 @@ class listas {
   }
   
 }
-

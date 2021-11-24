@@ -30,12 +30,10 @@ class usuario {
 
   public string Email {
     get {return _email;}
-    set {_email = value;}
   }
 
   public int TipoUsuario {
     get {return _tipoUsuario;}
-    set {_tipoUsuario = value;}
   }
 
   public usuario (string n, string s, string t, string end, string em, int tipoUsuario) {
