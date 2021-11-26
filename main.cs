@@ -4,7 +4,7 @@ class Program {
   public static void Main (string[] args) {
     
     cliente c = new cliente("Fernanda", "123", "312312312", "Endereço Cliente", "email", 1, false, false, false, "123123123");
-    funcionario f = new funcionario("Matheus", "123", "312312312", "Endereço Funcionário", "email", 2, true, true, true);
+    funcionario f = new funcionario("Matheus", "123", "3123-1231", "Endereço Funcionário", "email", 2, true, true, true);
 
     listas l = new listas();
     servico s = new servico("Manicure", 30.00, 10);
